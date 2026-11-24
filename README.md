@@ -12,7 +12,7 @@
 ![Java](https://img.shields.io/badge/Java-17-F89820?style=for-the-badge&logo=openjdk&logoColor=white)
 ![M7L TEAM](https://img.shields.io/badge/by-M7L%20TEAM-00E5FF?style=for-the-badge)
 
-<a href="https://github.com/m7l-team/Building-source/releases/download/files/Building-source-standalone-v3.3.apk"><img src="https://img.shields.io/badge/⬇_تحميل_التطبيق-APK_v3.3_(2.2_MB)-00E5A0?style=for-the-badge&logo=android&logoColor=white" height="42"></a>
+<a href="https://github.com/m7ldev/Building-source/releases/download/files/Building-source-standalone-v3.3.apk"><img src="https://img.shields.io/badge/⬇_تحميل_التطبيق-APK_v3.3_(2.2_MB)-00E5A0?style=for-the-badge&logo=android&logoColor=white" height="42"></a>
 
 <img src="screenshots/build.jpg" width="23%"> <img src="screenshots/libraries.jpg" width="23%"> <img src="screenshots/settings.jpg" width="23%"> <img src="screenshots/about.jpg" width="23%">
 
@@ -108,9 +108,9 @@ SDL2 (image / ttf / mixer)، OpenGL، EGL، GLEW، GLFW، Vulkan، X11، curl، 
 
 | الملف | الإصدار | الحجم | المعمارية |
 |---|---|---|---|
-| [**Building-source-standalone-v3.3.apk**](https://github.com/m7l-team/Building-source/releases/download/files/Building-source-standalone-v3.3.apk) | 3.3 | 2.2 MB | arm64-v8a |
+| [**Building-source-standalone-v3.3.apk**](https://github.com/m7ldev/Building-source/releases/download/files/Building-source-standalone-v3.3.apk) | 3.3 | 2.2 MB | arm64-v8a |
 
-- 📥 [تحميل مباشر](https://github.com/m7l-team/Building-source/releases/download/files/Building-source-standalone-v3.3.apk) · 📦 [صفحة الإصدار](https://github.com/m7l-team/Building-source/releases/tag/files)
+- 📥 [تحميل مباشر](https://github.com/m7ldev/Building-source/releases/download/files/Building-source-standalone-v3.3.apk) · 📦 [صفحة الإصدار](https://github.com/m7ldev/Building-source/releases/tag/files)
 - عند التثبيت اسمح بـ **تثبيت تطبيقات من مصادر غير معروفة**.
 - التطبيق خفيف لأن كل الأدوات تنزل أونلاين وقت البناء (شوف الملاحظة تحت).
 
