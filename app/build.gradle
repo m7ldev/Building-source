@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace "com.m7l.buildingsource"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.m7l.buildingsource"
+        minSdk 26
+        // 28: lets the app run the Linux tools it downloads into its own folder
+        targetSdk 28
+        versionCode 13
+        versionName "3.3"
+        ndk { abiFilters "arm64-v8a" }
+    }
+
+    buildTypes {
+        release { minifyEnabled false }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    // proot + its loader are shipped as "native libraries" so Android lets them run
+    packagingOptions { jniLibs { useLegacyPackaging true } }
+
+    lint { abortOnError false; checkReleaseBuilds false }
+}
+
+dependencies {
+    implementation "androidx.core:core:1.13.1"
+}

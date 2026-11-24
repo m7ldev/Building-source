@@ -1,0 +1,12 @@
+build/
+app/build/
+.gradle/
+.idea/
+.cxx/
+local.properties
+*.iml
+*.apk
+*.keystore
+*.jks
+app/src/main/jniLibs/
+build.log
